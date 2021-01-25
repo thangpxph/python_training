@@ -2,15 +2,15 @@ a = "123456789"
 symbol= ["+"," ", "-"]
 num = 100
 
-def permute(list, n):
-    if list == 1:
-        return n
+def back_tracking(n, list):
+    if n == 1:
+        return list
     else:
         return [ y + x
-                 for y in permute(1, n)
-                 for x in permute(list - 1, n)
+                 for y in back_tracking(1, list)
+                 for x in back_tracking(n - 1, list)
                  ]
-bt = permute(8, symbol)
+bt = back_tracking(8, symbol)
 for i in bt:
 	b = ""
 	b += a[:1] + i[0] + a[1:1] + a[1:2] + i[1] + a[2:2]+ a[2:3] + i[2] + a[3:3]
