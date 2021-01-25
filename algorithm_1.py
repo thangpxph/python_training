@@ -10,7 +10,7 @@ def back_tracking(n, list):
                  for y in back_tracking(1, list)
                  for x in back_tracking(n - 1, list)
                  ]
-bt = back_tracking(8, symbol)
+bt = back_tracking(len(a) - 1, symbol)
 for i in bt:
 	b = ""
 	b += a[:1] + i[0] + a[1:1] + a[1:2] + i[1] + a[2:2]+ a[2:3] + i[2] + a[3:3]
