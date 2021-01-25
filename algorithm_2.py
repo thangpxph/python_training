@@ -1,14 +1,14 @@
-x =8745
-y = 546895
+x =3
+y = 6
 num = 0
 z = y
 list_z = []
 while True:
-    if x > z:
+    if x >= z:
         break
     elif z % 2 == 0:
         while True:
-            if x > z:
+            if x >= z:
                 break
             if z % 2 == 0:
                 z /= 2
@@ -22,6 +22,7 @@ while True:
             num+=1
             z +=1
 li = list_z[::-1]
+print(li)
 for i in li:
     while True:
         if x < i:
