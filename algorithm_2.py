@@ -1,39 +1,22 @@
-x =3
-y = 6
+x =6
+y =13 
 num = 0
-z = y
-list_z = []
 while True:
-    if x >= z:
+    if x > y:
+        num += 1
+        y+=1
+    elif y == x:
         break
-    elif z % 2 == 0:
+    elif y % 2 == 0:
         while True:
-            if x >= z:
+            if x >= y:
                 break
-            if z % 2 == 0:
-                z /= 2
-                list_z += [z]
+            if y % 2 == 0:
+                num += 1
+                y /= 2
             else:
                 break
     else:
-        if x > z:
-            break
-        else:
-            num+=1
-            z +=1
-li = list_z[::-1]
-print(li)
-for i in li:
-    while True:
-        if x < i:
-            num+=1
-            x*=2
-        elif x > i:
-            num+=1
-            x -=1
-        else:
-            num+=1
-            x *=2
-            break
-print(x)
+        num+=1
+        y +=1
 print("the minimum number of steps to x = y: " + str(num))
