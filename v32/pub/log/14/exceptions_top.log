@@ -1,0 +1,7 @@
+2021/02/14 20:29:21 : categories_errors 2: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 395, in convert_category_export
+    category_data['name'] = category['name']
+KeyError: 'name'
+

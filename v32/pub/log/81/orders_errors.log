@@ -1,0 +1,56 @@
+2021/02/18 08:32:06 : orders_errors 1: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/var/www/python/cartmigration/models/cart/woocommerce.py", line 4213, in order_import
+    id_address_delivery = self.insert_address(id_customer, convert['shipping_address'])
+AttributeError: 'LeCartWoocommerce' object has no attribute 'insert_address'
+
+2021/02/18 08:32:06 : orders_errors 2: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/var/www/python/cartmigration/models/cart/woocommerce.py", line 4213, in order_import
+    id_address_delivery = self.insert_address(id_customer, convert['shipping_address'])
+AttributeError: 'LeCartWoocommerce' object has no attribute 'insert_address'
+
+2021/02/18 08:32:06 : orders_errors 3: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/var/www/python/cartmigration/models/cart/woocommerce.py", line 4213, in order_import
+    id_address_delivery = self.insert_address(id_customer, convert['shipping_address'])
+AttributeError: 'LeCartWoocommerce' object has no attribute 'insert_address'
+
+2021/02/18 08:32:06 : orders_errors 4: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/var/www/python/cartmigration/models/cart/woocommerce.py", line 4213, in order_import
+    id_address_delivery = self.insert_address(id_customer, convert['shipping_address'])
+AttributeError: 'LeCartWoocommerce' object has no attribute 'insert_address'
+
+2021/02/18 08:32:06 : orders_errors 5: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/var/www/python/cartmigration/models/cart/woocommerce.py", line 4213, in order_import
+    id_address_delivery = self.insert_address(id_customer, convert['shipping_address'])
+AttributeError: 'LeCartWoocommerce' object has no attribute 'insert_address'
+
+2021/02/18 08:32:06 : orders_errors 6: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/var/www/python/cartmigration/models/cart/woocommerce.py", line 4213, in order_import
+    id_address_delivery = self.insert_address(id_customer, convert['shipping_address'])
+AttributeError: 'LeCartWoocommerce' object has no attribute 'insert_address'
+
+2021/02/18 08:32:06 : orders_errors 7: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/var/www/python/cartmigration/models/cart/woocommerce.py", line 4213, in order_import
+    id_address_delivery = self.insert_address(id_customer, convert['shipping_address'])
+AttributeError: 'LeCartWoocommerce' object has no attribute 'insert_address'
+
+2021/02/18 08:32:06 : orders_errors 8: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/var/www/python/cartmigration/models/cart/woocommerce.py", line 4213, in order_import
+    id_address_delivery = self.insert_address(id_customer, convert['shipping_address'])
+AttributeError: 'LeCartWoocommerce' object has no attribute 'insert_address'
+

@@ -1,0 +1,90 @@
+2021/02/20 10:23:03 : Image Error 
+ Url Image: http://45.56.81.195/img_proxy.php?img=https://192.168.1.6/customcart/images/BSNIDESS1.39CHCOPW-100.png
+ Save Path: 2021/02/uploadsBSNIDESS1.39CHCOPW100.png
+ Params: {"url": "http://45.56.81.195/img_proxy.php?img=https://192.168.1.6/customcart/images/BSNIDESS1.39CHCOPW-100.png", "rename": true, "override": "override"}
+ Error: Operation timed out after 20001 milliseconds with 0 bytes received
+2021/02/20 10:23:04 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/CHMPNULC0060CHOCPK-s.png
+ Save Path: 2021/02/uploadsCHMPNULC0060CHOCPKs.png
+ Params: {"url": "http://192.168.1.6/customcart/images/CHMPNULC0060CHOCPK-s.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 10:23:04 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/chpultmtlcvan60ct-s.png
+ Save Path: 2021/02/uploadschpultmtlcvan60cts.png
+ Params: {"url": "http://192.168.1.6/customcart/images/chpultmtlcvan60ct-s.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 10:23:04 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/chpultrametstrw60ct-s.png
+ Save Path: 2021/02/uploadschpultrametstrw60cts.png
+ Params: {"url": "http://192.168.1.6/customcart/images/chpultrametstrw60ct-s.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 10:23:04 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/chpultrmtvan60ct-s.png
+ Save Path: 2021/02/uploadschpultrmtvan60cts.png
+ Params: {"url": "http://192.168.1.6/customcart/images/chpultrmtvan60ct-s.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 10:23:04 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/clfbarbberrycrsp12ct-s.png
+ Save Path: 2021/02/uploadsclfbarbberrycrsp12cts.png
+ Params: {"url": "http://192.168.1.6/customcart/images/clfbarbberrycrsp12ct-s.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 10:23:04 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/CLIFBUIL0012PEANBR-s.png
+ Save Path: 2021/02/uploadsCLIFBUIL0012PEANBRs.png
+ Params: {"url": "http://192.168.1.6/customcart/images/CLIFBUIL0012PEANBR-s.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 10:23:04 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/clfbarchocchip12ct-s.png
+ Save Path: 2021/02/uploadsclfbarchocchip12cts.png
+ Params: {"url": "http://192.168.1.6/customcart/images/clfbarchocchip12ct-s.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 10:23:05 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/clflunaoatmeal12ct-s.png
+ Save Path: 2021/02/uploadsclflunaoatmeal12cts.png
+ Params: {"url": "http://192.168.1.6/customcart/images/clflunaoatmeal12ct-s.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 10:23:05 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/CSPTCMAX01.5CITRPW-s.png
+ Save Path: 2021/02/uploadsCSPTCMAX01.5CITRPWs.png
+ Params: {"url": "http://192.168.1.6/customcart/images/CSPTCMAX01.5CITRPW-s.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 10:23:05 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/CSPTCMAX01.5ORGEPW1-s.png
+ Save Path: 2021/02/uploadsCSPTCMAX01.5ORGEPW1s.png
+ Params: {"url": "http://192.168.1.6/customcart/images/CSPTCMAX01.5ORGEPW1-s.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 10:23:05 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/CSPTEVOP2.25VANNPW-100.png
+ Save Path: 2021/02/uploadsCSPTEVOP2.25VANNPW100.png
+ Params: {"url": "http://192.168.1.6/customcart/images/CSPTEVOP2.25VANNPW-100.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 10:23:05 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/cysfasttwtchlem2lb-s.png
+ Save Path: 2021/02/uploadscysfasttwtchlem2lbs.png
+ Params: {"url": "http://192.168.1.6/customcart/images/cysfasttwtchlem2lb-s.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 10:23:05 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/cysfasttwtchgrp2lb-s.png
+ Save Path: 2021/02/uploadscysfasttwtchgrp2lbs.png
+ Params: {"url": "http://192.168.1.6/customcart/images/cysfasttwtchgrp2lb-s.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 10:23:05 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/cysfasttwtchlem2lb-s.png
+ Save Path: 2021/02/uploadscysfasttwtchlem2lbs.png
+ Params: {"url": "http://192.168.1.6/customcart/images/cysfasttwtchlem2lb-s.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 10:23:05 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/cysmmcksncrm5lb-s.png
+ Save Path: 2021/02/uploadscysmmcksncrm5lbs.png
+ Params: {"url": "http://192.168.1.6/customcart/images/cysmmcksncrm5lb-s.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 10:23:05 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/cysmmbarchocpntcarml8ct-s.png
+ Save Path: 2021/02/uploadscysmmbarchocpntcarml8cts.png
+ Params: {"url": "http://192.168.1.6/customcart/images/cysmmbarchocpntcarml8ct-s.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 10:23:05 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/cysmmbarvantoffcrnch8ct-s.png
+ Save Path: 2021/02/uploadscysmmbarvantoffcrnch8cts.png
+ Params: {"url": "http://192.168.1.6/customcart/images/cysmmbarvantoffcrnch8ct-s.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found

@@ -1,0 +1,16 @@
+2021/02/21 05:17:14 : Traceback (most recent call last):
+  File "/var/www/python/cartmigration/models/basecart.py", line 1319, in gzinflate
+    compressed_data = base64.b64decode(base64_string)
+  File "/usr/local/lib/python3.7/base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Invalid base64-encoded string: number of data characters (25) cannot be 1 more than a multiple of 4
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/var/www/python/cartmigration/models/basecart.py", line 1323, in gzinflate
+    compressed_data = base64.b64decode(base64_string)
+  File "/usr/local/lib/python3.7/base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Invalid base64-encoded string: number of data characters (25) cannot be 1 more than a multiple of 4
+

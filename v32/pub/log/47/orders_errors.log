@@ -1,0 +1,7 @@
+2021/02/16 09:47:00 : orders_errors 1: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1131, in convert_order_export
+    billing_name = self.get_name_from_string(order['bill_fname'] + ' '+ order['bill_lname'])
+KeyError: 'bill_fname'
+

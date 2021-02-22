@@ -1,0 +1,44 @@
+2021/02/18 08:32:04 : Categories 2: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2008-03-09 17:05:35', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Category id 2 import failed.
+2021/02/18 08:32:04 : Categories 3: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2011-07-21 10:04:35', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Category id 3 import failed.
+2021/02/18 08:32:04 : Categories 4: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2008-03-09 17:08:58', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Category id 4 import failed.
+2021/02/18 08:32:04 : Categories 5: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2008-07-09 10:12:53', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Category id 5 import failed.
+2021/02/18 08:32:04 : Categories 6: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2007-05-22 00:23:52', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Category id 6 import failed.
+2021/02/18 08:32:04 : Categories 7: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2007-05-22 00:23:52', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Category id 7 import failed.
+2021/02/18 08:32:04 : Categories 7: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2007-05-22 00:23:52', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Categories 8: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2011-02-18 10:59:23', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Category id 8 import failed.
+2021/02/18 08:32:04 : Categories 9: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2011-10-26 12:44:49', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Category id 9 import failed.
+2021/02/18 08:32:04 : Categories 10: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2010-10-18 12:20:34', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Category id 10 import failed.
+2021/02/18 08:32:04 : Categories 11: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2011-07-21 10:04:25', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Category id 11 import failed.
+2021/02/18 08:32:04 : Categories 12: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2010-10-18 12:20:13', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Category id 12 import failed.
+2021/02/18 08:32:04 : Categories 7: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2007-05-22 00:23:52', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Categories 13: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2011-02-18 11:56:02', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Category id 13 import failed.
+2021/02/18 08:32:04 : Categories 7: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2007-05-22 00:23:52', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Categories 14: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2011-02-18 10:53:28', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Category id 14 import failed.
+2021/02/18 08:32:04 : Categories 15: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2011-07-21 11:44:12', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Category id 15 import failed.
+2021/02/18 08:32:04 : Categories 16: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2007-05-22 00:23:52', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Category id 16 import failed.
+2021/02/18 08:32:04 : Categories 7: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2007-05-22 00:23:52', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Categories 17: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2011-02-18 10:50:49', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Category id 17 import failed.
+2021/02/18 08:32:04 : Categories 19: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2011-07-21 10:16:02', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Category id 19 import failed.
+2021/02/18 08:32:04 : Categories 20: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2012-04-21 09:14:57', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Category id 20 import failed.
+2021/02/18 08:32:04 : Categories 22: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2007-05-22 00:23:52', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Category id 22 import failed.
+2021/02/18 08:32:04 : Categories 23: INSERT INTO `_DBPRF_category` (`id_parent`, `level_depth`, `active`, `date_add`, `date_upd`, `position`) VALUES (2, 0, 1, '2007-05-22 00:23:52', '2007-05-22 00:23:52', '50'): <span class="message-alert-error">Table 'WORDPRESS_DB.wp_category' doesn't exist</span>
+2021/02/18 08:32:04 : Category id 23 import failed.

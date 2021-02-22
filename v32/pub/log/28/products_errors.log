@@ -1,0 +1,7 @@
+2021/02/15 05:35:46 : products_errors 9: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 538, in convert_product_export
+    print(products_ext_data['products_to_categories']['products_name'])
+TypeError: list indices must be integers or slices, not str
+

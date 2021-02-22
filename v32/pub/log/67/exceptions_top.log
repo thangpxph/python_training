@@ -1,0 +1,5 @@
+2021/02/16 17:33:22 : customer id 3 import failed. Error: email: contains an invalid domain name
+2021/02/16 17:33:34 : order id 5 import failed. Error: Exceeded  API rate limit, please try again in a minute. Upgrade to a paid account to remove this limit.
+2021/02/16 17:33:37 : order id 6 import failed. Error: Exceeded  API rate limit, please try again in a minute. Upgrade to a paid account to remove this limit.
+2021/02/16 17:33:39 : order id 7 import failed. Error: Exceeded  API rate limit, please try again in a minute. Upgrade to a paid account to remove this limit.
+2021/02/16 17:33:42 : order id 8 import failed. Error: Exceeded  API rate limit, please try again in a minute. Upgrade to a paid account to remove this limit.

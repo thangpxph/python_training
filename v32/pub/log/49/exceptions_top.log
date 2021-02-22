@@ -1,0 +1,7 @@
+2021/02/16 10:36:59 : orders_errors 1: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1161, in convert_order_export
+    order_delivery['first_name'] = order['delivery_name']
+KeyError: 'customers_firstname'
+

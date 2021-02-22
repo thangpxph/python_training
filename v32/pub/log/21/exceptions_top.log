@@ -1,0 +1,7 @@
+2021/02/15 04:11:08 : Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1000, in migration
+    ext = fn_get_ext(mains)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 493, in get_products_ext_export
+    image_ids=duplicate_field_value_from_list(product_ext['data']['products_images'], 'image_id')
+KeyError: 'products_images'
+
