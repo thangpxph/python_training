@@ -2242,7 +2242,7 @@ class LeCartWoocommerce(LeCartWordpress):
 		return category['term_id']
 
 	def check_category_import(self, convert, category, categories_ext):
-		id_imported = self.get_map_field_by_src(self.TYPE_CATEGORY, convert['id'], convert['code'], lang = self._notice['target']['language_default'])
+		id_imported = self.get_map_field_by_src(self.TYPE_CATEGORY, convert['id'], convert['code'], lang = self._notice['target']['language_default'])category_import
 		return True if id_imported else False
 
 	def router_category_import(self, convert, category, categories_ext):
@@ -2262,7 +2262,7 @@ class LeCartWoocommerce(LeCartWordpress):
 		}
 		category_term_query = self.create_insert_query_connector('terms', category_term)
 		term_id = self.import_data_connector(category_term_query, 'product_cat')
-		# self.insert_map(map_type = self.TYPE_CATEGORY, id_src = convert['id'], id_desc = term_id)
+		
 
 		des_term_id = self.get_map_field_by_src(map_type = self.TYPE_CATEGORY, id_src = convert['id'], field = 'id_desc')
 		taxonomy = 'product_cat'
@@ -2279,7 +2279,7 @@ class LeCartWoocommerce(LeCartWordpress):
 		}
 		category_taxonomy_query = self.create_insert_query_connector('term_taxonomy', category_taxonomy)
 		category_taxonomy_id = self.import_manufacturer_data_connector(category_taxonomy_query, True)
-		# self.update_map(map_type = self.TYPE_CATEGORY, id_src = convert['id'], id_desc = des_term_id, code_desc = category_taxonomy_id)
+		
 		return response_success(category_taxonomy_id)
 
 	def get_new_trid(self):
@@ -3482,7 +3482,6 @@ class LeCartWoocommerce(LeCartWordpress):
 		}
 		product_query = self.create_insert_query_connector('posts', product_posts_data)
 		product_des_id = self.import_data_connector(product_query)
-		#self.insert_map(map_type = self.TYPE_PRODUCT, id_src = convert['id'], id_desc = product_des_id)
 		return response_success(product_des_id)
 
 	def after_product_import(self, product_id, convert, product, products_ext):
@@ -3821,8 +3820,6 @@ class LeCartWoocommerce(LeCartWordpress):
 		customer_data_lookup_queries = self.create_insert_query_connector('wc_customer_lookup', customer_data_lookup)
 		self.import_data_connector(customer_data_lookup_queries, 'customer_metadata')
 
-
-		#self.insert_map(self.TYPE_CUSTOMER, convert['id'], customer_id, convert['email'], users_metadata['user_email'])
 
 
 		return response_success(customer_id)
@@ -4265,7 +4262,7 @@ class LeCartWoocommerce(LeCartWordpress):
 		}
 		order_query = self.create_insert_query_connector('posts', order_dataset)
 		order_id = self.import_data_connector(order_query)
-		#self.insert_map(map_type = self.TYPE_ORDER, id_src = convert['id'], id_desc = order_id)
+	
 
 		return response_success(order_id)
 
@@ -4337,7 +4334,7 @@ class LeCartWoocommerce(LeCartWordpress):
 			item_insert_query = self.create_insert_query_connector('woocommerce_order_items', meta_data)
 			order_item_id = self.import_data_connector(item_insert_query)
 
-			#self.update_map(map_type = self.TYPE_ORDER, id_src = convert['id'], id_desc = order_id, value = {'order_item_id': order_item_id})
+			
 
 			item_metadata = {
 				'_product_id': self.get_map_field_by_src(map_type = self.TYPE_PRODUCT, id_src = item['product']['id'], field = 'id_desc'),
