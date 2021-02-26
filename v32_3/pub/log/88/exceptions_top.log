@@ -1,0 +1,22 @@
+2021/02/18 10:19:09 : customers_errors 1: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/var/www/python/cartmigration/models/cart/woocommerce.py", line 3664, in customer_import
+    'user_registered': convert['customers_info_date_account_created'] if convert['customers_info_date_account_created'] else '',
+KeyError: 'customers_info_date_account_created'
+
+2021/02/18 10:19:09 : customers_errors 3: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/var/www/python/cartmigration/models/cart/woocommerce.py", line 3664, in customer_import
+    'user_registered': convert['customers_info_date_account_created'] if convert['customers_info_date_account_created'] else '',
+KeyError: 'customers_info_date_account_created'
+
+2021/02/18 10:19:09 : Order id 1 import failed.
+2021/02/18 10:19:09 : Order id 2 import failed.
+2021/02/18 10:19:09 : Order id 3 import failed.
+2021/02/18 10:19:09 : Order id 4 import failed.
+2021/02/18 10:19:09 : Order id 5 import failed.
+2021/02/18 10:19:09 : Order id 6 import failed.
+2021/02/18 10:19:09 : Order id 7 import failed.
+2021/02/18 10:19:09 : Order id 8 import failed.

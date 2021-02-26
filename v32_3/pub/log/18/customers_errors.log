@@ -1,0 +1,14 @@
+2021/02/14 20:45:47 : customers_errors 1: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 906, in convert_customer_export
+    customer_data['id'] = customer['id']
+KeyError: 'id'
+
+2021/02/14 20:45:47 : customers_errors 3: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 906, in convert_customer_export
+    customer_data['id'] = customer['id']
+KeyError: 'id'
+

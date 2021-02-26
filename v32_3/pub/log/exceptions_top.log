@@ -1,0 +1,27 @@
+2021/02/14 07:43:35 : Source token not correct! Probably you used the connector from another account. Please download and reupload connector from your account. <a href="https://litextension.com/faq/docs/unwanted-errors-fix/what-are-the-connector-files-and-how-to-download-them/" target="_blank">More details</a>
+2021/02/14 07:47:32 : Source token not correct! Probably you used the connector from another account. Please download and reupload connector from your account. <a href="https://litextension.com/faq/docs/unwanted-errors-fix/what-are-the-connector-files-and-how-to-download-them/" target="_blank">More details</a>
+2021/02/14 07:50:27 : Source token not correct! Probably you used the connector from another account. Please download and reupload connector from your account. <a href="https://litextension.com/faq/docs/unwanted-errors-fix/what-are-the-connector-files-and-how-to-download-them/" target="_blank">More details</a>
+2021/02/20 11:57:24 : Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 348, in setup_cart
+    setup_source = self.setup_source(data)
+  File "/var/www/python/cartmigration/controllers/migration.py", line 276, in setup_source
+    cart_url = getattr(self.get_source_cart(), 'format_url')(request['src_cart_url'])
+  File "/var/www/python/cartmigration/libs/base_controller.py", line 93, in get_source_cart
+    self.source_cart = get_model(cart_name)
+  File "/var/www/python/cartmigration/libs/utils.py", line 97, in get_model
+    module_class = importlib.import_module(model_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 636
+    product_language_data = self.construct_product_lang()
+    ^
+IndentationError: unexpected indent
+

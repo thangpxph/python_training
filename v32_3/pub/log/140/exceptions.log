@@ -1,0 +1,15 @@
+2021/02/22 03:39:16 : Traceback (most recent call last):
+  File "/var/www/python/bootstrap.py", line 20, in <module>
+    getattr(controller, action_name)(data)
+  File "/var/www/python/cartmigration/controllers/migration.py", line 86, in start
+    self.run()
+  File "/var/www/python/cartmigration/controllers/migration.py", line 132, in run
+    result = getattr(self, action)()
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1377, in finish_migration
+    self.notify_error(entity)
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1403, in notify_error
+    getattr(self.get_router(), 'create_demo_error')(self._notice)
+  File "/var/www/python/cartmigration/models/migration.py", line 310, in create_demo_error
+    'user_id': migration['user_id'],
+KeyError: 'user_id'
+

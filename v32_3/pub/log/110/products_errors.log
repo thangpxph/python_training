@@ -1,0 +1,14 @@
+2021/02/20 09:19:08 : products_errors 9: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1113, in migration
+    after_import = fn_after_import(id_desc, convert_data, main, ext)
+  File "/var/www/python/cartmigration/models/cart/woocommerce.py", line 3491, in after_product_import
+    image_import_path = self.uploadImageConnector(image_process, self.add_prefix_path(), override = 'override')
+TypeError: add_prefix_path() missing 1 required positional argument: 'path'
+
+2021/02/20 09:19:29 : products_errors 10: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1113, in migration
+    after_import = fn_after_import(id_desc, convert_data, main, ext)
+  File "/var/www/python/cartmigration/models/cart/woocommerce.py", line 3491, in after_product_import
+    image_import_path = self.uploadImageConnector(image_process, self.add_prefix_path(), override = 'override')
+TypeError: add_prefix_path() missing 1 required positional argument: 'path'
+

@@ -1,0 +1,145 @@
+2021/02/17 05:47:06 : products_errors 9: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 541, in convert_product_export
+    product_data['name'] = html.unescape(product_description['products_name'])
+KeyError: 'products_name'
+
+2021/02/17 05:47:06 : products_errors 10: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 541, in convert_product_export
+    product_data['name'] = html.unescape(product_description['products_name'])
+KeyError: 'products_name'
+
+2021/02/17 05:47:06 : products_errors 16: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 541, in convert_product_export
+    product_data['name'] = html.unescape(product_description['products_name'])
+KeyError: 'products_name'
+
+2021/02/17 05:47:06 : products_errors 17: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 541, in convert_product_export
+    product_data['name'] = html.unescape(product_description['products_name'])
+KeyError: 'products_name'
+
+2021/02/17 05:47:07 : products_errors 18: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 541, in convert_product_export
+    product_data['name'] = html.unescape(product_description['products_name'])
+KeyError: 'products_name'
+
+2021/02/17 05:47:07 : products_errors 19: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 541, in convert_product_export
+    product_data['name'] = html.unescape(product_description['products_name'])
+KeyError: 'products_name'
+
+2021/02/17 05:47:07 : products_errors 20: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 541, in convert_product_export
+    product_data['name'] = html.unescape(product_description['products_name'])
+KeyError: 'products_name'
+
+2021/02/17 05:47:07 : products_errors 22: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 541, in convert_product_export
+    product_data['name'] = html.unescape(product_description['products_name'])
+KeyError: 'products_name'
+
+2021/02/17 05:47:07 : products_errors 23: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 541, in convert_product_export
+    product_data['name'] = html.unescape(product_description['products_name'])
+KeyError: 'products_name'
+
+2021/02/17 05:47:07 : products_errors 24: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 541, in convert_product_export
+    product_data['name'] = html.unescape(product_description['products_name'])
+KeyError: 'products_name'
+
+2021/02/17 05:47:07 : products_errors 25: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 541, in convert_product_export
+    product_data['name'] = html.unescape(product_description['products_name'])
+KeyError: 'products_name'
+
+2021/02/17 05:47:07 : products_errors 37: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 541, in convert_product_export
+    product_data['name'] = html.unescape(product_description['products_name'])
+KeyError: 'products_name'
+
+2021/02/17 05:47:07 : products_errors 39: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 541, in convert_product_export
+    product_data['name'] = html.unescape(product_description['products_name'])
+KeyError: 'products_name'
+
+2021/02/17 05:47:07 : products_errors 41: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 541, in convert_product_export
+    product_data['name'] = html.unescape(product_description['products_name'])
+KeyError: 'products_name'
+
+2021/02/17 05:47:07 : products_errors 42: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 541, in convert_product_export
+    product_data['name'] = html.unescape(product_description['products_name'])
+KeyError: 'products_name'
+
+2021/02/17 05:47:07 : products_errors 43: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 541, in convert_product_export
+    product_data['name'] = html.unescape(product_description['products_name'])
+KeyError: 'products_name'
+
+2021/02/17 05:47:07 : products_errors 44: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 541, in convert_product_export
+    product_data['name'] = html.unescape(product_description['products_name'])
+KeyError: 'products_name'
+
+2021/02/17 05:47:07 : products_errors 47: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 541, in convert_product_export
+    product_data['name'] = html.unescape(product_description['products_name'])
+KeyError: 'products_name'
+
+2021/02/17 05:47:07 : products_errors 48: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 541, in convert_product_export
+    product_data['name'] = html.unescape(product_description['products_name'])
+KeyError: 'products_name'
+
+2021/02/17 05:47:07 : products_errors 49: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 541, in convert_product_export
+    product_data['name'] = html.unescape(product_description['products_name'])
+KeyError: 'products_name'
+
+2021/02/17 05:47:11 : customer id 3 import failed. Error: email: contains an invalid domain name
+2021/02/17 05:47:22 : order id 5 import failed. Error: Exceeded  API rate limit, please try again in a minute. Upgrade to a paid account to remove this limit.
+2021/02/17 05:47:25 : order id 6 import failed. Error: Exceeded  API rate limit, please try again in a minute. Upgrade to a paid account to remove this limit.
+2021/02/17 05:47:28 : order id 7 import failed. Error: Exceeded  API rate limit, please try again in a minute. Upgrade to a paid account to remove this limit.
+2021/02/17 05:47:31 : order id 8 import failed. Error: Exceeded  API rate limit, please try again in a minute. Upgrade to a paid account to remove this limit.

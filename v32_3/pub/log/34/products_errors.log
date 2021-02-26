@@ -1,0 +1,14 @@
+2021/02/15 06:10:22 : products_errors 9: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 573, in convert_product_export
+    if product['thumbnail']!='':
+KeyError: 'thumbnail'
+
+2021/02/15 06:13:58 : products_errors 10: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 573, in convert_product_export
+    # if product['thumbnail']!='':
+KeyError: 'thumbnail'
+

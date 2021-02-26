@@ -1,0 +1,7 @@
+2021/02/14 20:33:18 : categories_errors 2: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 392, in convert_category_export
+    category_data['description'] = category_description['value'] if category_description['value']!='' else  category_description['value_long']
+KeyError: 'value'
+

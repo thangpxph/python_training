@@ -1,0 +1,93 @@
+2021/02/20 08:57:50 : categories_errors 2: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 390, in convert_category_export
+    category_data['thumb_image']['path'] = 'images/' + category['categories_image']
+TypeError: can only concatenate str (not "NoneType") to str
+
+2021/02/20 08:57:50 : categories_errors 4: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 390, in convert_category_export
+    category_data['thumb_image']['path'] = 'images/' + category['categories_image']
+TypeError: can only concatenate str (not "NoneType") to str
+
+2021/02/20 08:57:50 : categories_errors 6: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 390, in convert_category_export
+    category_data['thumb_image']['path'] = 'images/' + category['categories_image']
+TypeError: can only concatenate str (not "NoneType") to str
+
+2021/02/20 08:57:50 : categories_errors 7: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 390, in convert_category_export
+    category_data['thumb_image']['path'] = 'images/' + category['categories_image']
+TypeError: can only concatenate str (not "NoneType") to str
+
+2021/02/20 08:57:50 : categories_errors 8: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 375, in convert_category_export
+    parent_data = self.get_category_parent(category['parent_id'])
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1509, in get_category_parent
+    category_convert = self.convert_category_export(category, categories_ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 390, in convert_category_export
+    category_data['thumb_image']['path'] = 'images/' + category['categories_image']
+TypeError: can only concatenate str (not "NoneType") to str
+
+2021/02/20 08:57:50 : categories_errors 13: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 375, in convert_category_export
+    parent_data = self.get_category_parent(category['parent_id'])
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1509, in get_category_parent
+    category_convert = self.convert_category_export(category, categories_ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 390, in convert_category_export
+    category_data['thumb_image']['path'] = 'images/' + category['categories_image']
+TypeError: can only concatenate str (not "NoneType") to str
+
+2021/02/20 08:57:50 : categories_errors 14: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 375, in convert_category_export
+    parent_data = self.get_category_parent(category['parent_id'])
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1509, in get_category_parent
+    category_convert = self.convert_category_export(category, categories_ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 390, in convert_category_export
+    category_data['thumb_image']['path'] = 'images/' + category['categories_image']
+TypeError: can only concatenate str (not "NoneType") to str
+
+2021/02/20 08:57:50 : categories_errors 16: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 390, in convert_category_export
+    category_data['thumb_image']['path'] = 'images/' + category['categories_image']
+TypeError: can only concatenate str (not "NoneType") to str
+
+2021/02/20 08:57:50 : categories_errors 17: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 375, in convert_category_export
+    parent_data = self.get_category_parent(category['parent_id'])
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1509, in get_category_parent
+    category_convert = self.convert_category_export(category, categories_ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 390, in convert_category_export
+    category_data['thumb_image']['path'] = 'images/' + category['categories_image']
+TypeError: can only concatenate str (not "NoneType") to str
+
+2021/02/20 08:57:51 : categories_errors 22: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 390, in convert_category_export
+    category_data['thumb_image']['path'] = 'images/' + category['categories_image']
+TypeError: can only concatenate str (not "NoneType") to str
+
+2021/02/20 08:57:51 : categories_errors 23: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 390, in convert_category_export
+    category_data['thumb_image']['path'] = 'images/' + category['categories_image']
+TypeError: can only concatenate str (not "NoneType") to str
+

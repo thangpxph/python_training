@@ -1,0 +1,56 @@
+2021/02/21 12:26:17 : orders_errors 1: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1073, in convert_order_export
+    order_total = get_list_from_list_by_field(orders_ext['data']['orders_total'], 'orders_id', order[
+KeyError: 'orders_total'
+
+2021/02/21 12:26:17 : orders_errors 2: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1073, in convert_order_export
+    order_total = get_list_from_list_by_field(orders_ext['data']['orders_total'], 'orders_id', order[
+KeyError: 'orders_total'
+
+2021/02/21 12:26:17 : orders_errors 3: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1073, in convert_order_export
+    order_total = get_list_from_list_by_field(orders_ext['data']['orders_total'], 'orders_id', order[
+KeyError: 'orders_total'
+
+2021/02/21 12:26:17 : orders_errors 4: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1073, in convert_order_export
+    order_total = get_list_from_list_by_field(orders_ext['data']['orders_total'], 'orders_id', order[
+KeyError: 'orders_total'
+
+2021/02/21 12:26:17 : orders_errors 5: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1073, in convert_order_export
+    order_total = get_list_from_list_by_field(orders_ext['data']['orders_total'], 'orders_id', order[
+KeyError: 'orders_total'
+
+2021/02/21 12:26:17 : orders_errors 6: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1073, in convert_order_export
+    order_total = get_list_from_list_by_field(orders_ext['data']['orders_total'], 'orders_id', order[
+KeyError: 'orders_total'
+
+2021/02/21 12:26:17 : orders_errors 7: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1073, in convert_order_export
+    order_total = get_list_from_list_by_field(orders_ext['data']['orders_total'], 'orders_id', order[
+KeyError: 'orders_total'
+
+2021/02/21 12:26:17 : orders_errors 8: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1073, in convert_order_export
+    order_total = get_list_from_list_by_field(orders_ext['data']['orders_total'], 'orders_id', order[
+KeyError: 'orders_total'
+

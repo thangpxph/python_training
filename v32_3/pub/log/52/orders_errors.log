@@ -1,0 +1,21 @@
+2021/02/16 10:53:25 : orders_errors 1: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/var/www/python/cartmigration/models/cart/shopify.py", line 2974, in order_import
+    if convert['shipping_address']['state']['name'] or convert['shipping_address']['state']['code']:
+KeyError: 'state'
+
+2021/02/16 10:57:14 : orders_errors 2: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/var/www/python/cartmigration/models/cart/shopify.py", line 2974, in order_import
+    if convert['shipping_address']['state']['name'] or convert['shipping_address']['state']['code']:
+KeyError: 'state'
+
+2021/02/16 10:57:57 : orders_errors 3: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1072, in migration
+    import_data = fn_import(convert_data, main, ext)
+  File "/var/www/python/cartmigration/models/cart/shopify.py", line 2974, in order_import
+    if convert['shipping_address']['state']['name'] or convert['shipping_address']['state']['code']:
+KeyError: 'state'
+

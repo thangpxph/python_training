@@ -1,0 +1,7 @@
+2021/02/15 11:35:42 : products_errors 9: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 579, in convert_product_export
+    product_images = get_list_from_list_by_field(products_ext_data['products_images'], 'product_id',product['id'])
+KeyError: 'products_images'
+

@@ -1,0 +1,13 @@
+2021/02/14 19:26:33 : Traceback (most recent call last):
+  File "/var/www/python/bootstrap.py", line 20, in <module>
+    getattr(controller, action_name)(data)
+  File "/var/www/python/cartmigration/controllers/migration.py", line 86, in start
+    self.run()
+  File "/var/www/python/cartmigration/controllers/migration.py", line 132, in run
+    result = getattr(self, action)()
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1027, in migration
+    id_src = fn_get_id(None, main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 804, in get_product_id_import
+    return product['id']
+KeyError: 'id'
+

@@ -1,0 +1,56 @@
+2021/02/21 12:29:51 : orders_errors 1: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1193, in convert_order_export
+    payments = get_row_from_list_by_field(orders_ext['data']['orders_payment'], 'orders_id', order['orders_id'])
+KeyError: 'orders_payment'
+
+2021/02/21 12:29:51 : orders_errors 2: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1193, in convert_order_export
+    payments = get_row_from_list_by_field(orders_ext['data']['orders_payment'], 'orders_id', order['orders_id'])
+KeyError: 'orders_payment'
+
+2021/02/21 12:29:51 : orders_errors 3: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1193, in convert_order_export
+    payments = get_row_from_list_by_field(orders_ext['data']['orders_payment'], 'orders_id', order['orders_id'])
+KeyError: 'orders_payment'
+
+2021/02/21 12:29:51 : orders_errors 4: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1193, in convert_order_export
+    payments = get_row_from_list_by_field(orders_ext['data']['orders_payment'], 'orders_id', order['orders_id'])
+KeyError: 'orders_payment'
+
+2021/02/21 12:29:51 : orders_errors 5: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1193, in convert_order_export
+    payments = get_row_from_list_by_field(orders_ext['data']['orders_payment'], 'orders_id', order['orders_id'])
+KeyError: 'orders_payment'
+
+2021/02/21 12:29:51 : orders_errors 6: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1193, in convert_order_export
+    payments = get_row_from_list_by_field(orders_ext['data']['orders_payment'], 'orders_id', order['orders_id'])
+KeyError: 'orders_payment'
+
+2021/02/21 12:29:51 : orders_errors 7: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1193, in convert_order_export
+    payments = get_row_from_list_by_field(orders_ext['data']['orders_payment'], 'orders_id', order['orders_id'])
+KeyError: 'orders_payment'
+
+2021/02/21 12:29:51 : orders_errors 8: Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 1036, in migration
+    convert = fn_convert_export(main, ext)
+  File "/var/www/python/cartmigration/models/cart/custom.py", line 1193, in convert_order_export
+    payments = get_row_from_list_by_field(orders_ext['data']['orders_payment'], 'orders_id', order['orders_id'])
+KeyError: 'orders_payment'
+

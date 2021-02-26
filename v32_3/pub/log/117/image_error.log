@@ -1,0 +1,95 @@
+2021/02/20 11:08:14 : Image Error 
+ Url Image: http://45.56.81.195/img_proxy.php?img=https://192.168.1.6/customcart/images/chpultmtchoc60cts.png
+ Save Path: wp-content/uploads/2021/02/chpultmtchoc60cts.png
+ Params: {"url": "http://45.56.81.195/img_proxy.php?img=https://192.168.1.6/customcart/images/chpultmtchoc60cts.png", "rename": true, "override": "override"}
+ Error: Operation timed out after 20000 milliseconds with 0 bytes received
+2021/02/20 11:08:15 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/BSNIDESS1.39VANNPW100.png
+ Save Path: wp-content/uploads/2021/02/BSNIDESS1.39VANNPW100.png
+ Params: {"url": "http://192.168.1.6/customcart/images/BSNIDESS1.39VANNPW100.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 11:08:15 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/chpultmtchoc60cts.png
+ Save Path: wp-content/uploads/2021/02/chpultmtchoc60cts.png
+ Params: {"url": "http://192.168.1.6/customcart/images/chpultmtchoc60cts.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 11:08:15 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/chpultmtlcvan60ct-s.png
+ Save Path: wp-content/uploads/2021/02/chpultmtlcvan60cts.png
+ Params: {"url": "http://192.168.1.6/customcart/images/chpultmtlcvan60ct-s.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 11:08:15 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/chpultmtchoc60cts.png
+ Save Path: wp-content/uploads/2021/02/chpultmtchoc60cts.png
+ Params: {"url": "http://192.168.1.6/customcart/images/chpultmtchoc60cts.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 11:08:15 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/BSNIDESS1.39VANNPW100.png
+ Save Path: wp-content/uploads/2021/02/BSNIDESS1.39VANNPW100.png
+ Params: {"url": "http://192.168.1.6/customcart/images/BSNIDESS1.39VANNPW100.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 11:08:15 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/BSNIDESS1.39VANNPW100.png
+ Save Path: wp-content/uploads/2021/02/BSNIDESS1.39VANNPW100.png
+ Params: {"url": "http://192.168.1.6/customcart/images/BSNIDESS1.39VANNPW100.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 11:08:15 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/chpultmtchoc60cts.png
+ Save Path: wp-content/uploads/2021/02/chpultmtchoc60cts.png
+ Params: {"url": "http://192.168.1.6/customcart/images/chpultmtchoc60cts.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 11:08:15 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/BSNIDESS1.39VANNPW100.png
+ Save Path: wp-content/uploads/2021/02/BSNIDESS1.39VANNPW100.png
+ Params: {"url": "http://192.168.1.6/customcart/images/BSNIDESS1.39VANNPW100.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 11:08:15 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/chpultmtchoc60cts.png
+ Save Path: wp-content/uploads/2021/02/chpultmtchoc60cts.png
+ Params: {"url": "http://192.168.1.6/customcart/images/chpultmtchoc60cts.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 11:08:16 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/chpultmtchoc60cts.png
+ Save Path: wp-content/uploads/2021/02/chpultmtchoc60cts.png
+ Params: {"url": "http://192.168.1.6/customcart/images/chpultmtchoc60cts.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 11:08:16 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/chpultmtchoc60cts.png
+ Save Path: wp-content/uploads/2021/02/chpultmtchoc60cts.png
+ Params: {"url": "http://192.168.1.6/customcart/images/chpultmtchoc60cts.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 11:08:16 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/chpultmtchoc60cts.png
+ Save Path: wp-content/uploads/2021/02/chpultmtchoc60cts.png
+ Params: {"url": "http://192.168.1.6/customcart/images/chpultmtchoc60cts.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 11:08:16 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/BSNIDESS1.39VANNPW100.png
+ Save Path: wp-content/uploads/2021/02/BSNIDESS1.39VANNPW100.png
+ Params: {"url": "http://192.168.1.6/customcart/images/BSNIDESS1.39VANNPW100.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 11:08:16 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/chpultmtchoc60cts.png
+ Save Path: wp-content/uploads/2021/02/chpultmtchoc60cts.png
+ Params: {"url": "http://192.168.1.6/customcart/images/chpultmtchoc60cts.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 11:08:16 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/BSNIDESS1.39VANNPW100.png
+ Save Path: wp-content/uploads/2021/02/BSNIDESS1.39VANNPW100.png
+ Params: {"url": "http://192.168.1.6/customcart/images/BSNIDESS1.39VANNPW100.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 11:08:16 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/chpultmtchoc60cts.png
+ Save Path: wp-content/uploads/2021/02/chpultmtchoc60cts.png
+ Params: {"url": "http://192.168.1.6/customcart/images/chpultmtchoc60cts.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 11:08:17 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/BSNIDESS1.39VANNPW100.png
+ Save Path: wp-content/uploads/2021/02/BSNIDESS1.39VANNPW100.png
+ Params: {"url": "http://192.168.1.6/customcart/images/BSNIDESS1.39VANNPW100.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found
+2021/02/20 11:08:17 : Image Error 
+ Url Image: http://192.168.1.6/customcart/images/cysmmbarvantoffcrnch8ct-s.png
+ Save Path: wp-content/uploads/2021/02/cysmmbarvantoffcrnch8cts.png
+ Params: {"url": "http://192.168.1.6/customcart/images/cysmmbarvantoffcrnch8ct-s.png", "rename": true}
+ Error: The requested URL returned error: 404 Not Found

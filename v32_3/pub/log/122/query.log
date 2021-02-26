@@ -1,0 +1,1 @@
+2021/02/20 12:22:04 : Query : INSERT INTO `_DBPRF_term_relationships` (`object_id`, `term_taxonomy_id`, `term_order`) VALUES ('9', '8', 0): <span class="message-alert-error">Duplicate entry '9-8' for key 'wp_term_relationships.PRIMARY'</span>
