@@ -3104,17 +3104,95 @@ class LeCartWoocommerce(LeCartWordpress):
 
 	def check_product_import(self, convert, product, products_ext):
 		product_id = self.get_map_field_by_src(self.TYPE_PRODUCT, convert['id'], convert['code'], lang = self._notice['target']['language_default'])
+
 		if product_id:
+
 			all_attr = {}
 			position = 0
 			for attr in convert['attributes']:
-				sg_attr = {attr['attribute_code']: {
-					'name': attr['attribute_name'],
-					'value': attr['value'],
+				attribute_query = {
+					"type": "select",
+					"query": f"SELECT * FROM `_DBPRF_woocommerce_attribute_taxonomies` WHERE attribute_id IN ('{attr['attribute_id']}')"
+				}
+				attributes = self.get_connector_data(self.get_connector_url('query'),
+				                                     {'query': json.dumps(attribute_query)})
+				if len(attributes['data']) == 0:
+					attribute_data = {
+						'attribute_id': attr['attribute_id'],
+						'attribute_name': attr['attribute_code'],
+						'attribute_label': attr['attribute_name'],
+						'attribute_type': 'select',
+						'attribute_orderby': 'menu_order',
+						'attribute_public': 1
+					}
+					attr_query = self.create_insert_query_connector('woocommerce_attribute_taxonomies', attribute_data)
+					self.import_data_connector(attr_query)
+
+				terms_query = {
+					"type": "select",
+					"query": f"SELECT * FROM `_DBPRF_terms` WHERE name IN ( '{attr['value']}' )"
+				}
+				term = self.get_connector_data(self.get_connector_url('query'),
+				                                     {'query': json.dumps(terms_query)})
+				if not term['data']:
+					term_data = {
+						'name': attr['value'],
+						'slug': attr['value'].lower(),
+						'term_group': 0
+					}
+					term_query = self.create_insert_query_connector('terms', term_data)
+					id_term=self.import_data_connector(term_query)
+					term_taxonomy_data = {
+						'term_id': id_term,
+						'taxonomy': 'pa_'+ attr['attribute_code'],
+						'description':'',
+						'parent': 0,
+						'count': 0
+					}
+					term_taxonomy_query = self.create_insert_query_connector('term_taxonomy', term_taxonomy_data)
+					term_taxonomy_id = self.import_data_connector(term_taxonomy_query)
+				else:
+					term_taxonomy_query = {
+						"type": "select",
+						"query": f"SELECT * FROM `_DBPRF_term_taxonomy` WHERE term_id IN ('{term['data'][0]['term_id']}')"
+					}
+					term_taxonomy = self.get_connector_data(self.get_connector_url('query'),
+					                               {'query': json.dumps(term_taxonomy_query)})
+					if not term_taxonomy['data']:
+						term_data = {
+							'name': attr['value'],
+							'slug': attr['value'].lower(),
+							'term_group': 0
+						}
+						term_query = self.create_insert_query_connector('terms', term_data)
+						id_term = self.import_data_connector(term_query)
+						term_taxonomy_data = {
+							'term_id': id_term,
+							'taxonomy': 'pa_' + attr['attribute_code'],
+							'description': '',
+							'parent': 0,
+							'count': 0
+						}
+						term_taxonomy_query = self.create_insert_query_connector('term_taxonomy', term_taxonomy_data)
+						term_taxonomy_id = self.import_data_connector(term_taxonomy_query)
+					else:
+						term_taxonomy_id=term_taxonomy['data'][0]['term_taxonomy_id']
+
+				term_relationships_data = {
+					'object_id': product_id,
+					'term_taxonomy_id': term_taxonomy_id,
+					'term_order': 0
+				}
+				term_relationships_query = self.create_insert_query_connector('term_relationships', term_relationships_data)
+				self.import_data_connector(term_relationships_query)
+
+				sg_attr = {'pa_' + attr['attribute_code']: {
+					'name': 'pa_' + attr['attribute_code'],
+					'value': '',
 					'position': position,
-						'is_visible': 1,
+					'is_visible': 1,
 					'is_variation': 0,
-					'is_taxonomy': 0
+					'is_taxonomy': 1
 				}
 				}
 				all_attr.update(sg_attr)

@@ -20,3 +20,4 @@
 2021/02/14 19:13:22 : SELECT COUNT(1) AS count FROM  categories WHERE id > 0: <span class="message-alert-error">SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'</span>
 2021/02/14 19:20:23 : SELECT COUNT(1) AS count FROM  categories WHERE id > 0: <span class="message-alert-error">SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'</span>
 2021/02/14 19:21:06 : SELECT COUNT(1) AS count FROM  categories WHERE id > 0: <span class="message-alert-error">SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'</span>
+2021/02/27 07:18:15 : SELECT * FROM `_DBPRF_term_taxonomy` AS term_taxonomy LEFT JOIN _DBPRF_terms AS terms ON term_taxonomy.term_id = terms.term_id WHERE term_taxonomy.taxonomy = 'shop_order_status': <span class="message-alert-error">Table 'WORDPRESS_DB.term_taxonomy' doesn't exist</span>

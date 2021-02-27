@@ -1,0 +1,1 @@
+2021/02/27 07:18:19 : SELECT ID FROM `_DBPRF_posts` WHERE post_type  IN ('product', 'product_variation') LIMIT 1: <span class="message-alert-error">Table 'WORDPRESS_DB.posts' doesn't exist</span>

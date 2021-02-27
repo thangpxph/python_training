@@ -1,0 +1,45 @@
+2021/02/27 07:22:08 : Image Error 
+ Url Image: http://45.56.81.195/img_proxy.php?img=https://192.168.31.49:8086/customcart/images/BSNIDESS1.39CHCOPW-100.png
+ Save Path: 2021/02/BSNIDESS1.39CHCOPW100.png
+ Params: {"url": "http://45.56.81.195/img_proxy.php?img=https://192.168.31.49:8086/customcart/images/BSNIDESS1.39CHCOPW-100.png", "rename": true, "override": "override"}
+ Error: Operation timed out after 20000 milliseconds with 0 bytes received
+2021/02/27 07:22:28 : Image Error 
+ Url Image: http://192.168.31.49:8086/customcart/images/BSNIDESS1.39VANNPW-100.png
+ Save Path: 2021/02/BSNIDESS1.39VANNPW100.png
+ Params: {"url": "http://192.168.31.49:8086/customcart/images/BSNIDESS1.39VANNPW-100.png", "rename": true}
+ Error: Connection timed out after 20001 milliseconds
+2021/02/27 07:22:49 : Image Error 
+ Url Image: http://192.168.31.49:8086/customcart/images/chpultmtchoc60ct-s.png
+ Save Path: 2021/02/chpultmtchoc60cts.png
+ Params: {"url": "http://192.168.31.49:8086/customcart/images/chpultmtchoc60ct-s.png", "rename": true}
+ Error: Connection timed out after 20001 milliseconds
+2021/02/27 07:23:09 : Image Error 
+ Url Image: http://192.168.31.49:8086/customcart/images/CHMPNULC0060CHOCPK-s.png
+ Save Path: 2021/02/CHMPNULC0060CHOCPKs.png
+ Params: {"url": "http://192.168.31.49:8086/customcart/images/CHMPNULC0060CHOCPK-s.png", "rename": true}
+ Error: Connection timed out after 20001 milliseconds
+2021/02/27 07:23:29 : Image Error 
+ Url Image: http://192.168.31.49:8086/customcart/images/chpultmtlcvan60ct-s.png
+ Save Path: 2021/02/chpultmtlcvan60cts.png
+ Params: {"url": "http://192.168.31.49:8086/customcart/images/chpultmtlcvan60ct-s.png", "rename": true}
+ Error: Connection timed out after 20001 milliseconds
+2021/02/27 07:23:49 : Image Error 
+ Url Image: http://192.168.31.49:8086/customcart/images/chpultrametstrw60ct-s.png
+ Save Path: 2021/02/chpultrametstrw60cts.png
+ Params: {"url": "http://192.168.31.49:8086/customcart/images/chpultrametstrw60ct-s.png", "rename": true}
+ Error: Connection timed out after 20001 milliseconds
+2021/02/27 07:24:09 : Image Error 
+ Url Image: http://192.168.31.49:8086/customcart/images/chpultrmtvan60ct-s.png
+ Save Path: 2021/02/chpultrmtvan60cts.png
+ Params: {"url": "http://192.168.31.49:8086/customcart/images/chpultrmtvan60ct-s.png", "rename": true}
+ Error: Connection timed out after 20001 milliseconds
+2021/02/27 07:24:29 : Image Error 
+ Url Image: http://192.168.31.49:8086/customcart/images/clfbarbberrycrsp12ct-s.png
+ Save Path: 2021/02/clfbarbberrycrsp12cts.png
+ Params: {"url": "http://192.168.31.49:8086/customcart/images/clfbarbberrycrsp12ct-s.png", "rename": true}
+ Error: Connection timed out after 20001 milliseconds
+2021/02/27 07:24:49 : Image Error 
+ Url Image: http://192.168.31.49:8086/customcart/images/CLIFBUIL0012PEANBR-s.png
+ Save Path: 2021/02/CLIFBUIL0012PEANBRs.png
+ Params: {"url": "http://192.168.31.49:8086/customcart/images/CLIFBUIL0012PEANBR-s.png", "rename": true}
+ Error: Connection timed out after 20000 milliseconds
